@@ -1,0 +1,6 @@
+@ImprovementService_HostAddress = http://localhost:5132
+
+GET {{ImprovementService_HostAddress}}/x/
+Accept: application/json
+
+###
