@@ -30,3 +30,4 @@ C:\dev\TaskManagementApp\TaskService\obj\Debug\net8.0\refint\TaskService.dll
 C:\dev\TaskManagementApp\TaskService\obj\Debug\net8.0\TaskService.pdb
 C:\dev\TaskManagementApp\TaskService\obj\Debug\net8.0\TaskService.genruntimeconfig.cache
 C:\dev\TaskManagementApp\TaskService\obj\Debug\net8.0\ref\TaskService.dll
+C:\dev\TaskManagementApp\TaskService\obj\Debug\net8.0\TaskService.sourcelink.json
