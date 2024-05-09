@@ -30,3 +30,4 @@ C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\refint\Client.dll
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.pdb
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\ref\Client.dll
+C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.csproj.AssemblyReference.cache
