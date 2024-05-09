@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\dev\\TaskManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA6A51F6-0A15-4646-9CAD-A3554BD3823F}|UserService\\UserService.csproj|c:\\dev\\taskmanagementapp\\userservice\\userservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CA6A51F6-0A15-4646-9CAD-A3554BD3823F}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{CA6A51F6-0A15-4646-9CAD-A3554BD3823F}|UserService\\UserService.csproj|c:\\dev\\taskmanagementapp\\userservice\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA6A51F6-0A15-4646-9CAD-A3554BD3823F}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|c:\\dev\\taskmanagementapp\\taskservice\\taskservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\taskservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|c:\\dev\\taskmanagementapp\\taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|c:\\dev\\taskmanagementapp\\projectservice\\projectservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\projectservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|c:\\dev\\taskmanagementapp\\improvementservice\\models\\improvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|solutionrelative:improvementservice\\models\\improvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|c:\\dev\\taskmanagementapp\\improvementservice\\improvementservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|solutionrelative:improvementservice\\improvementservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB30DEA3-CE2E-4A0D-AAB3-164333DED602}|AuthService\\AuthService.csproj|c:\\dev\\taskmanagementapp\\authservice\\authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{FB30DEA3-CE2E-4A0D-AAB3-164333DED602}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78C3BA22-DADD-41A9-B980-1A9EABE94075}|API-Gateway\\API-Gateway.csproj|c:\\dev\\taskmanagementapp\\api-gateway\\api-gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{78C3BA22-DADD-41A9-B980-1A9EABE94075}|API-Gateway\\API-Gateway.csproj|solutionrelative:api-gateway\\api-gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|c:\\dev\\taskmanagementapp\\projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78C3BA22-DADD-41A9-B980-1A9EABE94075}|API-Gateway\\API-Gateway.csproj|c:\\dev\\taskmanagementapp\\api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,93 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\UserService\\UserService.http",
-              "RelativeDocumentMoniker": "UserService\\UserService.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\UserService\\UserService.http",
-              "RelativeToolTip": "UserService\\UserService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:22:37.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskService.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\TaskService\\TaskService.http",
-              "RelativeDocumentMoniker": "TaskService\\TaskService.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\TaskService\\TaskService.http",
-              "RelativeToolTip": "TaskService\\TaskService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:22:33.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectService.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ProjectService\\ProjectService.http",
-              "RelativeDocumentMoniker": "ProjectService\\ProjectService.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\ProjectService\\ProjectService.http",
-              "RelativeToolTip": "ProjectService\\ProjectService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:22:28.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImprovementService.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ImprovementService\\ImprovementService.http",
-              "RelativeDocumentMoniker": "ImprovementService\\ImprovementService.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\ImprovementService\\ImprovementService.http",
-              "RelativeToolTip": "ImprovementService\\ImprovementService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:22:23.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\AuthService\\AuthService.http",
-              "RelativeDocumentMoniker": "AuthService\\AuthService.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\AuthService\\AuthService.http",
-              "RelativeToolTip": "AuthService\\AuthService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:19:21.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "API-Gateway.http",
-              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\API-Gateway\\API-Gateway.http",
-              "RelativeDocumentMoniker": "API-Gateway\\API-Gateway.http",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\API-Gateway\\API-Gateway.http",
-              "RelativeToolTip": "API-Gateway\\API-Gateway.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-08T04:18:54.024Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:120067118:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\UserService\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\UserService\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "UserService\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T03:55:38.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\TaskService\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "TaskService\\Models\\Task.cs",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\TaskService\\Models\\Task.cs",
+              "RelativeToolTip": "TaskService\\Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:55:48.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Improvement.cs",
+              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ImprovementService\\Models\\Improvement.cs",
+              "RelativeDocumentMoniker": "ImprovementService\\Models\\Improvement.cs",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\ImprovementService\\Models\\Improvement.cs",
+              "RelativeToolTip": "ImprovementService\\Models\\Improvement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:45:57.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ProjectService\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Models\\Project.cs",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\ProjectService\\Models\\Project.cs",
+              "RelativeToolTip": "ProjectService\\Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:32:29.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\API-Gateway\\Program.cs",
               "RelativeDocumentMoniker": "API-Gateway\\Program.cs",
