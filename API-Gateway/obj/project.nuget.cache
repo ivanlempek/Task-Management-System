@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WG6Fs4xWFeLLyRjhGZgIftL/2rMv4zKCEHI0ghXSgmmwyNWSj6OK0PRdw0L5/RYBSedoV/haWSGUWIwcgGN/GA==",
+  "dgSpecHash": "Pi+kzLhxcpiVwGVF6zJUS+m+wXfekWPuJCxr9OPsjrqJ/youGcZRCW6bCmSes3MQb2KuQzLQiiGzs/OoyNXMig==",
   "success": true,
   "projectFilePath": "C:\\dev\\TaskManagementApp\\API-Gateway\\API-Gateway.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ivan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

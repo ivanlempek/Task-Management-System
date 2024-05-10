@@ -31,3 +31,10 @@ C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.pdb
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\ref\Client.dll
 C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.csproj.AssemblyReference.cache
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\Syncfusion.Blazor.dll
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\Syncfusion.ExcelExport.Net.dll
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\Syncfusion.Licensing.dll
+C:\dev\TaskManagementApp\Client\bin\Debug\net7.0\Syncfusion.PdfExport.Net.dll
+C:\dev\TaskManagementApp\Client\obj\Debug\net7.0\Client.csproj.Up2Date

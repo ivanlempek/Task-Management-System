@@ -1,0 +1,56 @@
+﻿@using Syncfusion.Blazor.Grids
+
+<h3>Lista de Tarefas</h3>
+
+<SfGrid DataSource="@tarefas">
+    <GridColumns>
+        <GridColumn Field=@nameof(Tarefa.Id) HeaderText="ID Tarefa" TextAlign="TextAlign.Right" Width="12"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.NomeTarefa) HeaderText="Nome Tarefa" Width="15"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.Descricao) HeaderText="Descrição" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="13"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.Prazo) HeaderText="Prazo" TextAlign="TextAlign.Right" Width="12"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.Prioridade) HeaderText="Prioridade" TextAlign="TextAlign.Right" Width="12"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.Responsavel) HeaderText="Responsável" TextAlign="TextAlign.Right" Width="12"></GridColumn>
+        <GridColumn Field=@nameof(Tarefa.Criador) HeaderText="Criador" TextAlign="TextAlign.Right" Width="12"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@code {
+    public List<Tarefa> tarefas { get; set; }
+    public Tarefa tarefa { get; set; }
+
+    //Método Get para recuperar as tarefas do banco de dados
+    protected async Task GetTarefas()
+    {
+        //....
+    }
+
+    protected override void OnInitialized()
+    {
+        tarefas = new List<Tarefa>
+        {
+            new Tarefa{ Id = 1, NomeTarefa = "Tarefa 01", Descricao = "Descrição 01", Prazo = "05 Dias", Prioridade = "Alta", Responsavel = "Ivan", Criador = "Ivan", Status = "Indefinido" },
+            new Tarefa{ Id = 2, NomeTarefa = "Tarefa 02", Descricao = "Descrição 02", Prazo = "05 Dias", Prioridade = "Alta", Responsavel = "Ivan", Criador = "José", Status = "Indefinido" },
+            new Tarefa{ Id = 3, NomeTarefa = "Tarefa 03", Descricao = "Descrição 03", Prazo = "05 Dias", Prioridade = "Alta", Responsavel = "Ivan", Criador = "João", Status = "Indefinido" }
+        };
+    }
+
+    public class Tarefa
+    {
+        public int Id { get; set; }
+
+        public string NomeTarefa { get; set; }
+
+        public string Descricao { get; set; }
+
+        public string Prioridade { get; set; }
+
+        public string Status { get; set; }
+
+        public string Prazo { get; set; }
+
+        public string Responsavel { get; set; }
+
+        public string Criador { get; set; }
+
+    }
+}

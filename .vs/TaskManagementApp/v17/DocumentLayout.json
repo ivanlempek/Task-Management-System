@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\TaskManagementApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{648802B7-9F86-49AF-8371-9751C04C899D}|Client\\Client.csproj|c:\\dev\\taskmanagementapp\\client\\components\\taskgrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{648802B7-9F86-49AF-8371-9751C04C899D}|Client\\Client.csproj|solutionrelative:client\\components\\taskgrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{648802B7-9F86-49AF-8371-9751C04C899D}|Client\\Client.csproj|c:\\dev\\taskmanagementapp\\client\\pages\\taskcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{648802B7-9F86-49AF-8371-9751C04C899D}|Client\\Client.csproj|solutionrelative:client\\pages\\taskcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{648802B7-9F86-49AF-8371-9751C04C899D}|Client\\Client.csproj|solutionrelative:client\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|c:\\dev\\taskmanagementapp\\taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|c:\\dev\\taskmanagementapp\\improvementservice\\models\\improvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F397CE-4F6B-485D-9ECF-29442AE8FC9A}|ImprovementService\\ImprovementService.csproj|solutionrelative:improvementservice\\models\\improvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|c:\\dev\\taskmanagementapp\\projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{445B745F-6650-4ECF-B371-9ED744BB5969}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|c:\\dev\\taskmanagementapp\\taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4ADEF6A-A9FD-4AF4-9999-449F6BAFFA5F}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA6A51F6-0A15-4646-9CAD-A3554BD3823F}|UserService\\UserService.csproj|c:\\dev\\taskmanagementapp\\userservice\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,15 +46,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskGrid.razor",
+              "DocumentMoniker": "C:\\dev\\TaskManagementApp\\Client\\Components\\TaskGrid.razor",
+              "RelativeDocumentMoniker": "Client\\Components\\TaskGrid.razor",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\Client\\Components\\TaskGrid.razor",
+              "RelativeToolTip": "Client\\Components\\TaskGrid.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T05:33:47.047Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:120067118:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\Client\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "Client\\Pages\\_Host.cshtml",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -76,33 +93,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\Client\\_Imports.razor",
               "RelativeDocumentMoniker": "Client\\_Imports.razor",
               "ToolTip": "C:\\dev\\TaskManagementApp\\Client\\_Imports.razor",
               "RelativeToolTip": "Client\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-09T17:33:57.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskComponent.razor",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\Client\\Pages\\TaskComponent.razor",
               "RelativeDocumentMoniker": "Client\\Pages\\TaskComponent.razor",
-              "ToolTip": "C:\\dev\\TaskManagementApp\\Client\\Pages\\TaskComponent.razor",
-              "RelativeToolTip": "Client\\Pages\\TaskComponent.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ToolTip": "C:\\dev\\TaskManagementApp\\Client\\Pages\\TaskComponent.razor*",
+              "RelativeToolTip": "Client\\Pages\\TaskComponent.razor*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-09T17:14:06.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Improvement.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ImprovementService\\Models\\Improvement.cs",
               "RelativeDocumentMoniker": "ImprovementService\\Models\\Improvement.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\UserService\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "UserService\\Models\\ApplicationUser.cs",
@@ -128,20 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\TaskService\\Models\\Task.cs",
               "RelativeDocumentMoniker": "TaskService\\Models\\Task.cs",
               "ToolTip": "C:\\dev\\TaskManagementApp\\TaskService\\Models\\Task.cs",
               "RelativeToolTip": "TaskService\\Models\\Task.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T02:55:48.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\dev\\TaskManagementApp\\ProjectService\\Models\\Project.cs",
               "RelativeDocumentMoniker": "ProjectService\\Models\\Project.cs",
