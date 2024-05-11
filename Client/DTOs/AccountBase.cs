@@ -11,6 +11,6 @@ namespace Client.DTOs
 
         [DataType(DataType.Password)]
         [Required]
-        public required string Password { get; set; }
+        public required string Senha { get; set; }
     }
 }
