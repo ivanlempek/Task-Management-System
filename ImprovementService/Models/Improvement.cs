@@ -14,6 +14,6 @@ namespace ImprovementService.Models
         public string? Prioridade { get; set; }
         public bool? Status { get; set; }
         [Required]
-        public required string ProjetoID { get; set; }
+        public required string ProjectID { get; set; }
     }
 }

@@ -18,8 +18,12 @@ namespace TaskService.Models
         [Required]
         public required string Prazo { get; set; }
         [Required]
-        public required string Responsavel{ get; set; }
+        public required string Responsavel { get; set; }
         [Required]
-        public required string Criador{ get; set; }
+        public required string Criador { get; set; }
+        [Required]
+        public int ImprovementID { get; set; }
+        [Required]
+        public int ProjectID { get; set; }
     }
 }
