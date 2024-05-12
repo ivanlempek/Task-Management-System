@@ -1,7 +1,7 @@
 ﻿using ProjectService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ImprovementService.Data
+namespace ProjectService.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {

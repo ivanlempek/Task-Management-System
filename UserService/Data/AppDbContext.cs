@@ -1,7 +1,7 @@
 ﻿using UserService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ImprovementService.Data
+namespace UserService.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
