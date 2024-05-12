@@ -5,7 +5,7 @@ namespace ProjectService.Models
     public class Project
     {
         [Key]
-        public required int Id { get; set; }
+        public int Id { get; set; }
         [Required]
         [StringLength(100)]
         public required string Nome { get; set; }

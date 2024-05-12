@@ -5,7 +5,7 @@ namespace TaskService.Models
     public class Task
     {
         [Key]
-        public required int Id { get; set; }
+        public int Id { get; set; }
         [Required]
         [StringLength(100)]
         public required string Nome { get; set; }

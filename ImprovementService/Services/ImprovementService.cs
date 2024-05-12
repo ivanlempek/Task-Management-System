@@ -1,7 +1,6 @@
 ﻿using ImprovementService.Data;
 using ImprovementService.Models;
 using ImprovementService.Services.Interfaces;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 namespace ImprovementService.Services
