@@ -11,9 +11,9 @@ namespace ImprovementService.Models
         public required string Nome { get; set; }
         [StringLength(500)]
         public string? Descricao { get; set; }
-        public string? Prioridade { get; set; }
-        public bool? Status { get; set; }
+        public required Prioridade Prioridade { get; set; }
+        public required Status Status { get; set; }
         [Required]
-        public required string ProjectID { get; set; }
+        public required int ProjectID { get; set; }
     }
 }

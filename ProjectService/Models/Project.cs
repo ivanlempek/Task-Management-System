@@ -13,7 +13,7 @@ namespace ProjectService.Models
         public string? Descricao { get; set; }
         public DateTime? DataInicio { get; set; }
         public DateTime? DataLancamento { get; set; }
-        public bool? Status { get; set; }
+        public required Status Status { get; set; }
         public string? Fundador { get; set; }
     }
 }

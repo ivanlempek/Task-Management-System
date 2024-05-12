@@ -12,9 +12,9 @@ namespace TaskService.Models
         [StringLength(500)]
         public required string Descricao { get; set; }
         [Required(ErrorMessage = "A prioridade é obrigatória.")]
-        public required string Prioridade { get; set; }
+        public required Prioridade Prioridade { get; set; }
         [Required(ErrorMessage = "O estado da tarefa é obrigatório.")]
-        public required string Status { get; set; }
+        public required Status Status { get; set; }
         [Required]
         public required string Prazo { get; set; }
         [Required]
