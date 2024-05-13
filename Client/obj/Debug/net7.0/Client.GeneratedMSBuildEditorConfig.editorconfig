@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/dev/TaskManagementApp/Client/Components/TaskForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYXNrRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/TaskManagementApp/Client/Components/TaskGrid.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYXNrR3JpZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

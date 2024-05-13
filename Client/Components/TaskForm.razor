@@ -1,0 +1,91 @@
+﻿@using Client.DTOs
+@using Syncfusion.Blazor.Calendars
+@using Syncfusion.Blazor.DataForm
+@using System.ComponentModel.DataAnnotations
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Buttons
+
+<h3>TaskForm</h3>
+
+<EditForm Model="@TaskDTO" OnValidSubmit="HandleValidSubmit">
+    <SfDataForm ID="MyForm" Model="@TaskDTO">
+        <FormValidator>
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+        </FormValidator>
+        <FormItems>
+            <FormItem Field="@nameof(TaskDTO.Nome)">
+                <SfTextBox Placeholder="Nome da Tarefa" @bind-Value="TaskDTO.Nome"></SfTextBox>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.Descricao)">
+                <SfTextBox Placeholder="Descrição" @bind-Value="TaskDTO.Descricao"></SfTextBox>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.Prioridade)">
+                <SfDropDownList TItem="string" TValue="string"
+                                DataSource="Enum.GetNames(typeof(Prioridade))"
+                                Placeholder="Prioridade"
+                                Value="@prioridadeSelecionada"
+                                @onchange="AtualizarPrioridade" />
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.Status)">
+                    <SfDropDownList TItem="string" TValue="string"
+                        DataSource="Enum.GetNames(typeof(Status))"
+                        Placeholder="Status"
+                        Value="@statusSelecionado"
+                        @onchange="AtualizarStatus"/>
+                </FormItem>>
+            <FormItem Field="@nameof(TaskDTO.Prazo)">
+                <SfDatePicker Placeholder="Prazo" @bind-Value="TaskDTO.Prazo"></SfDatePicker>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.Responsavel)">
+                <SfDatePicker Placeholder="Responsavel" @bind-Value="TaskDTO.Responsavel"></SfDatePicker>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.Criador)">
+                <SfDatePicker Placeholder="Criador" @bind-Value="TaskDTO.Criador"></SfDatePicker>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.ImprovementID)">
+                <SfDatePicker Placeholder="ImprovementID" @bind-Value="TaskDTO.ImprovementID"></SfDatePicker>
+            </FormItem>
+            <FormItem Field="@nameof(TaskDTO.ProjectID)">
+                <SfDatePicker Placeholder="ProjectID" @bind-Value="TaskDTO.ProjectID"></SfDatePicker>
+            </FormItem>
+            <FormItem>
+                <SfButton IsPrimary="true">Salvar Tarefa</SfButton>
+            </FormItem>
+        </FormItems>
+    </SfDataForm>
+</EditForm>
+
+@code {
+    private TaskDTO TaskDTO { get; set; }
+
+    //private TaskDTO TaskDTO = new TaskDTO();
+
+    private string prioridadeSelecionada;
+    private string statusSelecionado;
+
+    private void AtualizarPrioridade(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<Prioridade>(e.Value.ToString(), out var novaPrioridade))
+        {
+            TaskDTO.Prioridade = novaPrioridade;
+        }
+    }
+
+    private void AtualizarStatus(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<Status>(e.Value.ToString(), out var novoStatus))
+        {
+            TaskDTO.Status = novoStatus;
+        }
+    }
+
+    // Metodo para gravar no banco a tarefa vindo do lado do servidor
+    private async Task HandleValidSubmit()
+    {
+        
+    }
+
+}
+
+
